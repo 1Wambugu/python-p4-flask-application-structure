@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<h1>Welcome to my app!</h1>'
+    return 'Welcome to my App!'
 
 @app.route('/<string:username>')
 def user(username):
